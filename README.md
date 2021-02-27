@@ -1,90 +1,70 @@
-[![Build Status](https://travis-ci.org/KomodoPlatform/komodo.svg?branch=master)](https://travis-ci.org/KomodoPlatform/komodo)
-[![Version](https://img.shields.io/github/v/release/komodoplatform/komodo)](https://github.com/KomodoPlatform/komodo/releases)
-[![Issues](https://img.shields.io/github/issues-raw/komodoplatform/komodo)](https://github.com/KomodoPlatform/komodo/issues)
-[![PRs](https://img.shields.io/github/issues-pr-closed/komodoplatform/komodo)](https://github.com/KomodoPlatform/komodo/pulls)
-[![Commits](https://img.shields.io/github/commit-activity/y/komodoplatform/komodo)](https://github.com/KomodoPlatform/komodo/commits/dev)
-[![Contributors](https://img.shields.io/github/contributors/komodoplatform/komodo)](https://github.com/KomodoPlatform/komodo/graphs/contributors)
-[![Last Commit](https://img.shields.io/github/last-commit/komodoplatform/komodo)](https://github.com/KomodoPlatform/komodo/graphs/commit-activity)
+# What is Koin ?
+koinon is the complete solution for payments, serving the needs of both merchants and consumers. Our “OmniChannel” payment system is a single solution enabling merchants to seamlessly accept crypto, mobile, and card payments – all with a single piece of hardware. Koinon’s multi-currency eWallet and linked debit card give consumers a convenient way of making transactions and sending funds using their stored tokens.
 
-[![gitstars](https://img.shields.io/github/stars/komodoplatform/komodo?style=social)](https://github.com/KomodoPlatform/komodo/stargazers)
-[![twitter](https://img.shields.io/twitter/follow/komodoplatform?style=social)](https://twitter.com/komodoplatform)
-[![discord](https://img.shields.io/discord/412898016371015680)](https://discord.gg/tvp96Gf)
+![KOINON Logo](https://koinon.io/wp-content/uploads/2018/12/Koinon_Brandbook-02-Copy.jpg "Koinon Logo")
 
----
-![Komodo Logo](https://i.imgur.com/E8LtkAa.png "Komodo Logo")
+# Development Resources
+- Official Website: https://koinon.io/
+- Komodo Web: https://komodoplatform.com/
+- Forum: https://forum.komodoplatform.com/
+- Knowledgebase & How-to: https://komodoplatform.atlassian.net/wiki/spaces/KPSD/pages
+- API references: http://docs.komodoplatform.com/
+- Blog: http://blog.komodoplatform.com/
+- Whitepaper: https://koinon.io/wp-content/uploads/2018/12/Koinon-WP-Year-End-2018.pdf
+- Komodo Platform public material: Komodo Platform public material
 
+# Komodo Platform Technologies
+- Delayed Proof of Work (dPoW) - Additional security layer and Komodos own consensus algorithm.
+- zk-SNARKs - Komodo Platform's privacy technology for shielded transactions
+- Tokens/Assets Technology - create "colored coins" on the Komodo Platform and use them as a layer for securites
+- Reward API - Komodo CC technology for securities
+- CC - Crypto Conditions to realize "smart contract" logic on top of the Komodo Platform
+- Jumblr - Decentralized tumbler for KMD and other cryptocurrencies
+- Assetchains - Create your own Blockchain that inherits all Komodo Platform functionalities and blockchain interoperability
+- Pegged Assets - Chains that maintain a peg to fiat currencies
+- Peerchains - Scalability solution where sibling chains form a network of blockchains
+- More in depth covered here
+- Also note you receive 5% APR on your holdings. See this article for more details
 
-## Komodo
-
-This is the official Komodo sourcecode repository based on https://github.com/jl777/komodo. 
-
-## Development Resources
-
-- Komodo Website: [https://komodoplatform.com](https://komodoplatform.com/)
-- Komodo Blockexplorer: [https://kmdexplorer.io](https://kmdexplorer.io/)
-- Komodo Discord: [https://komodoplatform.com/discord](https://komodoplatform.com/discord)
-- Forum: [https://forum.komodoplatform.com](https://forum.komodoplatform.com/)
-- Mail: [info@komodoplatform.com](mailto:info@komodoplatform.com)
-- Support: [https://support.komodoplatform.com/support/home](https://support.komodoplatform.com/support/home)
-- Knowledgebase & How-to: [https://support.komodoplatform.com/en/support/solutions](https://support.komodoplatform.com/en/support/solutions)
-- API references & Dev Documentation: [https://developers.komodoplatform.com](https://developers.komodoplatform.com/)
-- Blog: [https://blog.komodoplatform.com](https://blog.komodoplatform.com/)
-- Whitepaper: [Komodo Whitepaper](https://komodoplatform.com/whitepaper)
-- Komodo Platform public material: [Komodo Platform public material](https://docs.google.com/document/d/1AbhWrtagu4vYdkl-vsWz-HSNyNvK-W-ZasHCqe7CZy0)
-
-## List of Komodo Platform Technologies
-
-- Delayed Proof of Work (dPoW) - Additional security layer and Komodos own consensus algorithm  
-- zk-SNARKs - Komodo Platform's privacy technology for shielded transactions  
-- Tokens/Assets Technology - create "colored coins" on the Komodo Platform and use them as a layer for securites  
-- Reward API - Komodo CC technology for securities  
-- CC - Crypto Conditions to realize "smart contract" logic on top of the Komodo Platform  
-- Jumblr - Decentralized tumbler for KMD and other cryptocurrencies  
-- Assetchains - Create your own Blockchain that inherits all Komodo Platform functionalities and blockchain interoperability  
-- Pegged Assets - Chains that maintain a peg to fiat currencies  
-- Peerchains - Scalability solution where sibling chains form a network of blockchains  
-- More in depth covered [here](https://docs.google.com/document/d/1AbhWrtagu4vYdkl-vsWz-HSNyNvK-W-ZasHCqe7CZy0)  
-- Also note you receive 5% Active User Reward on your balance.  
-[See this article for more details](https://support.komodoplatform.com/en/support/solutions/articles/29000024515-how-to-claim-the-kmd-active-user-reward-in-agama)
-
-## Tech Specification
-- Max Supply: 200 million KMD
+# Koin Tech Specification
+- Coin Ticker: KOIN
+- Coin Name: Koinon Coin
+- Max Supply: 125M KOIN
 - Block Time: 60 seconds
-- Block Reward: 3 KMD
-- Mining Algorithm: Equihash
+- Block Reward: 0.001 KOIN
+- Mining Algorithm: Equihas
+- rpcport: 10702
+- p2pport: 10701
+- pubtype: 48
+- taddr: 0
+- p2shtype: 50
+- wiftype: 176
+- txfee: 1000000
+- active: 1
 
-## About this Project
-Komodo is based on Zcash and has been extended by our innovative consensus algorithm called dPoW which utilizes Bitcoin's hashrate to store Komodo blockchain information into the Bitcoin blockchain. Other new and native Komodo features are the privacy technology called JUMBLR, our assetchain capabilities (one click plug and play blockchain solutions) and a set of financial decentralization and interoperability technologies. More details are available under https://komodoplatform.com/ and https://blog.komodoplatform.com.
 
-## Getting started
+# BUILD NOTES
 
-### Dependencies
+## Notes
+The dev branch is considered the bleeding edge codebase while the master-branch is considered tested (unit tests, runtime tests, functionality). At no point of time do the Koin developers take any responsbility for any damage out of the usage of this software. Koin builds for all operating systems out of the same codebase. Follow the OS specific instructions from below.
 
-```shell
-#The following packages are needed:
-sudo apt-get install build-essential pkg-config libc6-dev m4 g++-multilib autoconf libtool ncurses-dev unzip git python python-zmq zlib1g-dev wget libcurl4-gnutls-dev bsdmainutils automake curl libsodium-dev
+## Dependencies
 ```
+ sudo apt-get install build-essential pkg-config libc6-dev m4 g++-multilib autoconf libtool ncurses-dev unzip git python python-zmq zlib1g-dev wget libcurl4-gnutls-dev bsdmainutils automake curl
+ ```
 
-### Build Komodo
-
-This software is based on zcash and considered experimental and is continously undergoing heavy development.
-
-The dev branch is considered the bleeding edge codebase while the master-branch is considered tested (unit tests, runtime tests, functionality). At no point of time do the Komodo Platform developers take any responsbility for any damage out of the usage of this software. 
-Komodo builds for all operating systems out of the same codebase. Follow the OS specific instructions from below.
-
-#### Linux
-```shell
-git clone https://github.com/komodoplatform/komodo --branch master --single-branch
-cd komodo
+## Linux
+```
+git clone https://github.com/aseandude/Koinon --branch master --single-branch
+cd Koinon
 ./zcutil/fetch-params.sh
-./zcutil/build.sh -j$(expr $(nproc) - 1)
+# -j8 = using 8 threads for the compilation - replace 8 with number of threads you want to use
+./zcutil/build.sh -j8
 #This can take some time.
 ```
 
-
-#### OSX
-Ensure you have [brew](https://brew.sh) and Command Line Tools installed.
-```shell
+## OSX
+```
 # Install brew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 # Install Xcode, opens a pop-up window to install CLT without installing the entire Xcode package
@@ -99,109 +79,97 @@ brew install binutils
 brew install protobuf
 brew install coreutils
 brew install wget
-# Clone the Komodo repo
-git clone https://github.com/komodoplatform/komodo --branch master --single-branch
+# Clone the Koinon repo
+git clone https://github.com/aseandude/Koinon --branch master --single-branch
 # Change master branch to other branch you wish to compile
-cd komodo
+cd Koinon
 ./zcutil/fetch-params.sh
-./zcutil/build-mac.sh -j$(expr $(sysctl -n hw.ncpu) - 1)
+# -j8 = using 8 threads for the compilation - replace 8 with number of threads you want to use
+./zcutil/build-mac.sh -j8
 # This can take some time.
+
 ```
 
-#### Windows
+## Windows
 Use a debian cross-compilation setup with mingw for windows and run:
-```shell
-sudo apt-get install build-essential pkg-config libc6-dev m4 g++-multilib autoconf libtool ncurses-dev unzip git python python-zmq zlib1g-dev wget libcurl4-gnutls-dev bsdmainutils automake curl cmake mingw-w64 libsodium-dev libevent-dev
+```
+sudo apt-get install build-essential pkg-config libc6-dev m4 g++-multilib autoconf libtool ncurses-dev unzip git python python-zmq zlib1g-dev wget libcurl4-gnutls-dev bsdmainutils automake curl cmake mingw-w64
 curl https://sh.rustup.rs -sSf | sh
 source $HOME/.cargo/env
 rustup target add x86_64-pc-windows-gnu
-
-sudo update-alternatives --config x86_64-w64-mingw32-gcc
-# (configure to use POSIX variant)
-sudo update-alternatives --config x86_64-w64-mingw32-g++
-# (configure to use POSIX variant)
-
-git clone https://github.com/jl777/komodo --branch master --single-branch
-cd komodo
+git clone https://github.com/aseandude/Koinon --branch master --single-branch
+cd Koinon
 ./zcutil/fetch-params.sh
-./zcutil/build-win.sh -j$(expr $(nproc) - 1)
+# -j8 = using 8 threads for the compilation - replace 8 with number of threads you want to use
+./zcutil/build-win.sh -j8
 #This can take some time.
 ```
-**komodo is experimental and a work-in-progress.** Use at your own risk.
 
-To reset the Komodo blockchain change into the *~/.komodo* data directory and delete the corresponding files by running `rm -rf blocks chainstate debug.log komodostate db.log`
-
-#### Create komodo.conf
-
-Create a komodo.conf file:
-
+## Create KOIN.conf
 ```
-mkdir ~/.komodo
-cd ~/.komodo
-touch komodo.conf
+mkdir -p ~/.komodo/KOIN
+cd ~/.komodo/KOIN
+touch KOIN.conf
 
-#Add the following lines to the komodo.conf file:
+#Add the following lines to the KOIN.conf file:
 rpcuser=yourrpcusername
 rpcpassword=yoursecurerpcpassword
 rpcbind=127.0.0.1
 txindex=1
-addnode=77.75.121.138
-addnode=95.213.238.100
-addnode=94.130.148.142
-addnode=103.6.12.105
-addnode=139.99.209.214
-addnode=185.130.212.13
-addnode=5.9.142.219
-addnode=200.25.4.38
-addnode=139.99.136.148
-
-```
-### Create your own Blockchain based on Komodo
-
-Komodo allows anyone to create a runtime fork which represents an independent Blockchain. Below are the detailed instructions:
-Setup two independent servers with at least 1 server having a static IP and build komodod on those servers.  
-
-#### On server 1 (with static IP) run:
-```shell
-./komodod -ac_name=name_of_your_chain -ac_supply=100000 -bind=ip_of_server_1 &
+server=1
+daemon=1
+addnode=18.136.218.202
+addnode=18.140.207.130
+addnode=18.140.174.120
 ```
 
-#### On server 2 run:
-```shell
-./komodod -ac_name=name_of_your_chain -ac_supply=100000 -addnode=ip_of_server_1 -gen &
+## Start deamon
 ```
-
-**Komodo is based on Zcash which is unfinished and highly experimental.** Use at your own risk.
-
-License
--------
-For license information see the file [COPYING](COPYING).
-
-**NOTE TO EXCHANGES:**
-https://bitcointalk.org/index.php?topic=1605144.msg17732151#msg17732151
-There is a small chance that an outbound transaction will give an error due to mismatched values in wallet calculations. There is a -exchange option that you can run komodod with, but make sure to have the entire transaction history under the same -exchange mode. Otherwise you will get wallet conflicts.
-
-**To change modes:**
-
-a) backup all privkeys (launch komodod with `-exportdir=<path>` and `dumpwallet`)  
-b) start a totally new sync including `wallet.dat`, launch with same `exportdir`  
-c) stop it before it gets too far and import all the privkeys from a) using `komodo-cli importwallet filename`  
-d) resume sync till it gets to chaintip  
-
-For example:
-```shell
-./komodod -exportdir=/tmp &
-./komodo-cli dumpwallet example
-./komodo-cli stop
-mv ~/.komodo ~/.komodo.old && mkdir ~/.komodo && cp ~/.komodo.old/komodo.conf ~/.komodo.old/peers.dat ~/.komodo
-./komodod -exchange -exportdir=/tmp &
-./komodo-cli importwallet /tmp/example
+~/Koinon/src/komodod -ac_name=KOIN -ac_supply=125000000 -gen &
 ```
----
+It will start in background. Please wait sometime to full synchronize with other network. Once your node fully sync test foloowing command to check status
+Meanwhile you can check debug.log file in ~/.komodo/KOIN/debug.log if any error
 
+```
+~/Koinon/src/komodo-cli -ac_name=KOIN getinfo
+```
+It will show you following output
+```
+{
+  "version": 2001526,
+  "protocolversion": 170007,
+  "KMDversion": "0.3.3b",
+  "notarized": 54274,
+  "prevMoMheight": 54274,
+  "notarizedhash": "05486d028ec57a77c656760128b2c9ff21c40548f77914a11764c03641a422b4",
+  "notarizedtxid": "e0bd6865a74e831b77a5f37261c1d4a55892b04d90d11ad418a446985cf6e9d6",
+  "notarizedtxid_height": "mempool",
+  "KMDnotarized_height": 0,
+  "notarized_confirms": 0,
+  "walletversion": 60000,
+  "balance": 1.34314113,
+  "blocks": 54452,
+  "longestchain": 54452,
+  "timeoffset": 0,
+  "tiptime": 1569366013,
+  "connections": 26,
+  "proxy": "",
+  "difficulty": 1,
+  "testnet": false,
+  "keypoololdest": 1567798301,
+  "keypoolsize": 101,
+  "paytxfee": 0.00000000,
+  "relayfee": 0.00000100,
+  "errors": "",
+  "name": "KOIN",
+  "sapling": 266,
+  "p2pport": 10701,
+  "rpcport": 10702,
+  "magic": -1235858314,
+  "premine": 125000000
+}
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+```
+Wow!! You have successfully completed setup
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Cheers
